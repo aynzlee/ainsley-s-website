@@ -1,0 +1,188 @@
+html, body {
+    font-family: helvetica;
+    height: 90%;
+    background-color: #FFF8DA;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+hr {
+    border-top: 2px solid black;
+    margin-top: 2.5%;
+    width: 100%;
+}
+
+/*navigation bar*/
+
+.navigation {
+    margin: 2.5%;
+    border: 2px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.home-button {
+    margin-top: 22%;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #9D887E;
+}
+
+.archive-button {
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.archive-button:hover {
+    background-color: #9D887E;
+}
+
+.contact-button {
+    margin-bottom: 22%;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #9D887E;
+}
+
+/*folder container*/
+.folders-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 66%;
+    height: 30%;
+    top: 35%;
+    left: 30%;
+}
+
+/*folders*/
+.website-folder {
+    position: absolute;
+    height: 100%;
+    left: 6%;
+    z-index: 2;
+}
+
+.website-folder:hover {
+    transform: translateY(7%);
+}
+
+.elevator-folder {
+    position: absolute;
+    height: 100%;
+    left: 38%;
+    z-index: 2;
+}
+.elevator-folder:hover {
+    transform: translateY(7%);
+}
+
+.ttt-folder {
+    position: absolute;
+    height: 100%;
+    left: 70%;
+    z-index: 2;
+}
+.ttt-folder:hover {
+    transform: translateY(7%);
+}
+
+/*papers*/
+.website-papers {
+    position: absolute;
+    height: 100%;
+    top: -15%;
+    left: 10%;
+    z-index: 1;
+}
+
+.elevator-papers {
+    position: absolute;
+    height: 100%;
+    top: -15%;
+    left: 43%;
+    z-index: 1;
+}
+
+.ttt-papers {
+    position: absolute;
+    height: 100%;
+    top: -15%;
+    left: 75%;
+    z-index: 1;
+}
+
+.project-topic-1 {
+    color:#FFF8DA;
+    position: absolute;
+    top: 47%;
+    left: 17%;
+    z-index: 2;
+}
+
+.project-topic-2 {
+    color:#FFF8DA;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    z-index: 2;
+}
+
+.project-topic-3 {
+    color:#FFF8DA;
+    position: absolute;
+    top: 47%;
+    left: 80%;
+    z-index: 2;
+}

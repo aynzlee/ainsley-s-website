@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../website/stylesheets/hobbies_css.css" rel="stylesheet"/>
+    <title>hobbies</title>
+</head>
+
+<body>
+
+    <hr>
+    <!--navigation bar-->
+    <div class="navigation">
+        <a href="main.html" class="home-button" style="color:#FFFFFF" target="_self">
+            <img src="../icons/my computer icon.svg" alt="my computer icon" width="45" height="45">home</a>
+
+        <a href="archive.html" class="archive-button" style="color:#FFFFFF" target="_self">
+            <img src="../icons/folder.svg" alt="archive folder icon" width="45" height="45">archive</a>
+        
+        <a href="contact.html" class="contact-button" style="color:#FFFFFF" target="_self">
+            <img src="../icons/my computer icon.svg" alt="temp contact icon" width="45" height="45">contact</a>
+    </div>
+
+    <p class="hobby-intro">A collection of my recent crochet projects!</p>
+
+    <!--back button that will link to archive page-->
+    <a href="../website/archive.html" class="return-button"> < return </a>
+
+    <!--carousel here-->
+    <section>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left"> < </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <img class="carousel-images" src="../images/pictures/crochet lemon and pear.png" alt="lemon and pear pair keychains">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel-images" src="../images/pictures/crochet strawb.png" alt="strawberry keychain on my bag">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel-images" src="../images/pictures/crochet pouch.png" alt="crochet pouch">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel-images" src="../images/pictures/headphones accessory.png" alt="moon and star headphone accessory">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel-images" src="../images/pictures/nigel pineapple.png" alt="pineapple crochet on my cat nigel!">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right"> > </button>
+
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
+        </div>
+    <p class="hobby-last-update">last update: 14/july/2025, 12:41pm</p>
+    <p class="illustrations">(illustrations are TBD/WIP 🙉)</p>
+    <script src="../website/js/carousel.js"></script>
+</body>
+</html>

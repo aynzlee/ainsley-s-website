@@ -1,0 +1,131 @@
+html, body {
+    font-family: helvetica;
+    height: 90%;
+    background-color: #FFF8DA;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+hr {
+    border-top: 2px solid black;
+    margin-top: 2.5%;
+    width: 100%;
+}
+
+/*navigation bar*/
+
+.navigation {
+    margin: 2.5%;
+    border: 2px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.home-button {
+    margin-top: 22%;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #9D887E;
+}
+
+.archive-button {
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.archive-button:hover {
+    background-color: #9D887E;
+}
+
+.contact-button {
+    margin-bottom: 22%;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #9D887E;
+}
+
+.return-button {
+    position: absolute;
+    border: none;
+    background-color: #3b241a;
+    color:#FFF8DA;
+    width: 10%;
+    height: 5%;
+    top: 11%;
+    left: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elevator-desc {
+    position: absolute;
+    color:#3b241a;
+    width: 35%;
+    height: 60%;
+    top: 15%;
+    left: 30%;
+}
+
+.elevator-images {
+    position: absolute;
+    height: 80%;
+    top: 15%;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+}

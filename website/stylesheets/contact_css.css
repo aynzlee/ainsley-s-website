@@ -1,0 +1,119 @@
+html, body {
+    font-family: helvetica;
+    height: 90%;
+    background-color: #FFF8DA;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+hr {
+    border-top: 2px solid black;
+    margin-top: 2.5%;
+    width: 100%;
+}
+
+/*navigation bar*/
+
+.navigation {
+    margin: 2.5%;
+    border: 2px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.home-button {
+    margin-top: 22%;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #9D887E;
+}
+
+.archive-button {
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.archive-button:hover {
+    background-color: #9D887E;
+}
+
+.contact-button {
+    margin-bottom: 22%;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 10%;
+    background-color: #3b241a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #9D887E;
+}
+
+.contact-me-frame {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 43%;
+}
+
+.information {
+    font-size: larger;
+    font-weight: bolder;
+    color:#FFF8DA;
+    position: absolute;
+    top: 45%;
+    left: 57%;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 47.9%;
+    left: 53%;
+    gap: .5em;
+}
