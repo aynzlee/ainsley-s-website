@@ -107,39 +107,39 @@ hr {
 }
 
 /*folders*/
-.website-folder {
+.code-folder {
     position: absolute;
     height: 100%;
     left: 6%;
     z-index: 2;
 }
 
-.website-folder:hover {
+.code-folder:hover {
     transform: translateY(7%);
 }
 
-.elevator-folder {
+.physics-folder {
     position: absolute;
     height: 100%;
     left: 38%;
     z-index: 2;
 }
-.elevator-folder:hover {
+.physics-folder:hover {
     transform: translateY(7%);
 }
 
-.ttt-folder {
+.hobby-folder {
     position: absolute;
     height: 100%;
     left: 70%;
     z-index: 2;
 }
-.ttt-folder:hover {
+.hobby-folder:hover {
     transform: translateY(7%);
 }
 
 /*papers*/
-.website-papers {
+.code-papers {
     position: absolute;
     height: 100%;
     top: -15%;
@@ -147,7 +147,7 @@ hr {
     z-index: 1;
 }
 
-.elevator-papers {
+.physics-papers {
     position: absolute;
     height: 100%;
     top: -15%;
@@ -155,7 +155,7 @@ hr {
     z-index: 1;
 }
 
-.ttt-papers {
+.hobby-papers {
     position: absolute;
     height: 100%;
     top: -15%;

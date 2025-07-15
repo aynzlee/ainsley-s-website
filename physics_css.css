@@ -114,3 +114,17 @@ hr {
     left: 20%;
 }
 
+.return-button {
+    position: absolute;
+    border: none;
+    background-color: #3b241a;
+    color:#FFF8DA;
+    width: 10%;
+    height: 5%;
+    top: 11%;
+    left: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
