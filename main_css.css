@@ -134,23 +134,30 @@ hr {
 
 .bottom-icons {
     position: absolute;
-    color:#3b241a;
-    width: 5%;
-    height: 15%;
+    width: 20%;
+    height: 10%;
     top: 75%;
-    left: 49%;
-    text-decoration: none;
-    text-align:start;
+    left: 42%;
     display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:center;
+    flex-direction: column;
+    gap: 5%;
 }
 
-.linkedin-icon {
-    position: absolute;
-    top: 0%;
-    left: 25%;
+.linked-in, .github {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#3b241a;
+}
+
+.linked-in {
+    left: 30%;
+}
+
+.github {
+    right: 30%;
+    bottom: 87%;
 }
 
 .carousel {
