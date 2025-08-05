@@ -131,33 +131,27 @@ hr {
     line-height: 2;
 }
 
+.web-desc-add {
+    color:#3b241a;
+    position: absolute;
+    top: 20%;
+    left: 63%
+}
 
 .bottom-icons {
     position: absolute;
     width: 20%;
     height: 10%;
     top: 75%;
-    left: 42%;
+    left: 45%;
     display: flex;
-    flex-direction: column;
-    gap: 5%;
+    gap: 20%;
 }
 
 .linked-in, .github {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:#3b241a;
-}
-
-.linked-in {
-    left: 30%;
-}
-
-.github {
-    right: 30%;
-    bottom: 87%;
 }
 
 .carousel {
