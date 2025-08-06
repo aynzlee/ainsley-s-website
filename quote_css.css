@@ -92,102 +92,37 @@ hr {
     background-color: #9D887E;
 }
 
+.return-button {
+    position: absolute;
+    border: none;
+    background-color: #3b241a;
+    color:#FFF8DA;
+    width: 10%;
+    height: 5%;
+    top: 11%;
+    left: 30%;
 
-.container {
-    width: 68%;
-    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-embed {
     position: absolute;
     top: 10%;
-    left: 30%;
-    gap: 10%;
+    left: 68%;
 }
 
-/*website*/
-.ainsley-website-frame {
+.quote-box {
     position: absolute;
-    background-color: #3b241a;
-    width: 100%;
-    height: 20%;
-    top: 2%;
+    width: 35%;
+    height: 75%;
+    top: 15%;
+    left: 29%;
 }
 
-.website-img {
+.quote-desc {
     position: absolute;
-    top: 30%;
+    top: 5%;
     left: 5%;
-}
-
-.project-name-website {
-    position: absolute;
-    color:#FFF8DA;
-    top: 30%;
-    left: 20%;
-}
-
-
-/*pos quote generator*/
-.ainsley-quote-frame {
-    position: absolute;
-    background-color: #3b241a;
-    width: 100%;
-    height: 20%;
-    top: 25%;
-}
-
-.quote-img {
-    position: absolute;
-    top: 30%;
-    left: 5%;
-}
-
-.project-name-quote {
-    position: absolute;
-    color:#FFF8DA;
-    top: 30%;
-    left: 20%;
-}
-
-/*elevator*/
-.ainsley-elevator-frame {
-    position: absolute;
-    background-color: #3b241a;
-    width: 100%;
-    height: 20%;
-    top: 48%;
-}
-
-.elevator-img {
-    position: absolute;
-    top: 30%;
-    left: 5%;
-}
-
-.project-name-elevator {
-    position: absolute;
-    color:#FFF8DA;
-    top: 30%;
-    left: 20%;
-}
-
-/*ttt*/
-
-.ainsley-ttt-frame {
-    position: absolute;
-    background-color: #3b241a;
-    width: 100%;
-    height: 20%;
-    top: 71%;
-}
-
-.ttt-img {
-    position: absolute;
-    top: 30%;
-    left: 5%;
-}
-
-.project-name-ttt {
-    position: absolute;
-    color:#FFF8DA;
-    top: 30%;
-    left: 20%;
 }
