@@ -110,5 +110,13 @@ hr {
 .astro-lab-report {
     position: absolute;
     top: 10%;
-    left: 45%;
+    left: 63%;
+}
+
+.pulsar-desc {
+    position:absolute;
+    width: 30%;
+    height: 70%;
+    top: 18%;
+    left: 30%;
 }

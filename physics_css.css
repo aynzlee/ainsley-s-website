@@ -91,7 +91,7 @@ hr {
 .contact-button:hover {
     background-color: #9D887E;
 }
-
+/*pulsar doc*/
 .ainsley-pulsar-frame {
     position: absolute;
     background-color: #3b241a;
@@ -113,6 +113,53 @@ hr {
     top: 30%;
     left: 20%;
 }
+
+/*ABV*/
+.ABV-frame {
+    position: absolute;
+    background-color: #9D887E;
+    width: 68%;
+    height: 20%;
+    top: 17.5%;
+    left: 30%;
+}
+
+.abv-img {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.project-name-abv {
+    position: absolute;
+    color:#3b241a;
+    top: 30%;
+    left: 20%;
+}
+
+/*cassini*/
+.cassini-frame {
+    position: absolute;
+    background-color: #3b241a;
+    width: 68%;
+    height: 20%;
+    top: 66.5%;
+    left: 30%;
+}
+
+.cassini-img {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.project-name-cassini {
+    position: absolute;
+    color:#FFF8DA;
+    top: 30%;
+    left: 20%;
+}
+
 
 .return-button {
     position: absolute;
